@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga Deportiva Distrital de Fútbol Santa María de Chicmo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-left">
+            <img src="images/FPF.png" alt="Logo Izquierdo">
+        </div>
+        <h1>Liga Deportiva Distrital de Fútbol Santa María de Chicmo</h1>
+        <div class="logo-right">
+            <img src="images/logo_copa.png" alt="Logo Derecho">
+        </div>
+    </header>
+    <section class="cards">
+        <div class="card">
+            <img src="images/univer.jpg" alt="Partido 1" class="card-img" id="img1">
+            <div class="card-content">
+                <h3>UNIVERSITARIO DE NE VS CULTURAL POLTOCSA</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/juventud.jpg" alt="Partido 2" class="card-img" id="img2">
+            <div class="card-content">
+                <h3>JUVENTUD M. FC VS ALIANZA LLIUPAPUQIO</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Image Display -->
+    <div id="modal" class="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <div class="contact">
+            <p><i class="fas fa-phone"></i> Contacto: <a href="tel:+51 975 660 477">+51 975 660 477</a></p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:papujohnemer21@gmail.com">papujohnemer21@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
